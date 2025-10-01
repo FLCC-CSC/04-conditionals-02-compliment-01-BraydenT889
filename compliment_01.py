@@ -15,12 +15,10 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 def main():
-    answer = input().strip().lower()
-    if answer in ["yes", "y"]:
+    answer = input("Would you like a compliment? ").strip()
+    if answer == "yes":   # Only "yes" counts as affirmative
         print("You have wonderful eyes.")
-        print("Thank you for playing.")
-    elif answer in ["no", "n"]:
-        print("Thank you for playing.")
+    print("Thank you for playing.")
 
 if __name__ == "__main__":
     main()
