@@ -14,9 +14,8 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-
 def main():
-    answer = input("Would you like a compliment? (yes/no): ").strip().lower()
+    answer = input().strip().lower()
     if answer in ["yes", "y"]:
         print("You have wonderful eyes.")
         print("Thank you for playing.")
@@ -25,7 +24,6 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 
 
 
