@@ -16,14 +16,10 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    response = input("Would you like to play again? (yes/no) ").strip().lower()
-
-    if response in ["yes", "y", "no", "n"]:
+    response = input("Do you want a compliment? ").strip().lower()
+    if response == "yes":
+        print("You have wonderful eyes.")
         print("Thank you for playing.")
-    else:
-        print("Invalid input.")
-
-    print("Thank you for participating!")
 
 if __name__ == "__main__":
     main()
