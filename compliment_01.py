@@ -20,11 +20,11 @@ def main():
     if answer == "yes":
         print("You have wonderful eyes.")
         print("Thank you for playing.")
+    elif answer == "no":
+        print("Thank you for playing.")
+
 if __name__ == "__main__":
     main()
-
-
-
 
 
 
