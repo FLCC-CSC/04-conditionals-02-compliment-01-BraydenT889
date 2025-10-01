@@ -1,8 +1,8 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Brayden Thorne
+# DATE: 2025-09-30
+# BRIEF DESCRIPTION:  Will give compliment
 
 
 
@@ -14,11 +14,13 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+def main():
+    answer = input("Would you like a compliment? ").strip()
+    if answer == "yes":
+     print("You have wonderful eyes.")
+    print("Thank you for playing.")
 
-
-
-
-
+main()
 
 
 
