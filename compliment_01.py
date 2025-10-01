@@ -15,13 +15,14 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-def compliment_game():
-   answer = input("Do you want a compliment? ")
-   if answer == "yes":
-       print("You have wonderful eyes.")
-   print("Thank you for playing.")
+def main():
+    answer = input("Would you like a compliment? (yes/no): ").strip().lower()
+    if answer == "yes":
+        print("You have wonderful eyes.")
 
-compliment_game()
+    print("Thank you for playing.")
+if __name__ == "__main__":
+    main()
 
 
 
