@@ -17,10 +17,10 @@
 
 def main():
     answer = input("Would you like a compliment? (yes/no): ").strip().lower()
-    if answer == "yes":
+    if answer in ["yes", "y"]:
         print("You have wonderful eyes.")
         print("Thank you for playing.")
-    elif answer == "no":
+    elif answer in ["no", "n"]:
         print("Thank you for playing.")
 
 if __name__ == "__main__":
